@@ -1,0 +1,10 @@
+{
+  "name": "enokawa.dev",
+  "license": "MIT",
+  "scripts": {
+    "firebase": "./node_modules/firebase-tools/lib/bin/firebase.js"
+  },
+  "devDependencies": {
+    "firebase-tools": "^8.4.3"
+  }
+}
