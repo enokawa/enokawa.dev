@@ -2,7 +2,9 @@
   "name": "enokawa.dev",
   "license": "MIT",
   "scripts": {
-    "firebase": "./node_modules/firebase-tools/lib/bin/firebase.js"
+    "firebase": "./node_modules/firebase-tools/lib/bin/firebase.js",
+    "serve": "./node_modules/firebase-tools/lib/bin/firebase.js serve --only hosting",
+    "deploy": "./node_modules/firebase-tools/lib/bin/firebase.js deploy --only hosting"
   },
   "devDependencies": {
     "firebase-tools": "^8.4.3"
